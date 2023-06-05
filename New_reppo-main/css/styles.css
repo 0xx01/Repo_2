@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+
+a {
+  font-family: "Cairo", sans-serif !important;
+  color: #ffffff !important;
+  font-size: 1.7rem;
+}
+nav {
+  margin-bottom: 0px !important;
+  border: none !important;
+}
+#bannerImage {
+  padding-top: 75px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url("pp.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+#bannerContent {
+  position: relative;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 660px;
+}
+
+footer {
+  background-color: #101010;
+  color: #9d9d9d;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  bottom: 0;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.thumbnail a > img,
+.thumbnail > img {
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  height: 200px !important;
+  border-radius: 20px;
+}
+
+.container.products a {
+  background-color: #f90606 !important;
+}
+
+@media (min-width: 10px) {
+  #autoResize {
+    font-size: 12px;
+  }
+  nav {
+    border-radius: 0px !important;
+  }
+
+  .jumbotron .h1,
+  .jumbotron h1 {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+  }
+}
+@media (min-width: 481px) {
+  #autoResize {
+    font-size: 16px;
+  }
+}
+@media (min-width: 641px) {
+  #autoResize {
+    font-size: 18px;
+  }
+}
+@media (min-width: 961px) {
+  #autoResize {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  #autoResize {
+    font-size: 26px;
+  }
+}
